@@ -31,7 +31,7 @@ func (l *ListNode) EqualValues(o *ListNode) bool {
 			return true
 		}
 
-		// Can both be nil as we would've returned above
+		// Can't both be nil as we would've returned above
 		if n1 == nil || n2 == nil {
 			return false
 		}
